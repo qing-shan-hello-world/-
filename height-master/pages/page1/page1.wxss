@@ -1,0 +1,35 @@
+/* pages/my_height/my_height.wxss */
+.btn1{
+  width: 60%;
+  top: 5%
+}
+
+.canvas{
+  width: 100%;
+  height: 100rpx
+}
+
+
+.usermotto {
+  margin-top: 20px;
+}
+
+.height {
+  width:90px;
+  padding:20px;
+  margin:5px;
+  outline-style:solid;outline-width:5rpx;outline-color:rgb(245,24,168);
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.eat {
+  width:110px;
+  padding:15px;
+  margin:5px;
+  outline-style:solid;outline-width:5rpx;outline-color:rgb(245,24,168);
+}
+

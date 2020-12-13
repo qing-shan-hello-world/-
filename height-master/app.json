@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/page1/page1"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "药盒使用情况",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

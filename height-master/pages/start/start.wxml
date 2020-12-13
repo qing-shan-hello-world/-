@@ -1,0 +1,8 @@
+<!--start.wxml-->
+<image style="width: 310px; height: 200px;" mode="scaleToFill" src="/屏幕截图 2020-12-13 195807.jpg"> 
+</image>
+
+<button  bindtap="getDataFromOneNet">查看服药情况</button>
+
+<image class="btn1" style="width: 310px; height: 250px;" mode="scaleToFill" src="/195807.jpg"> 
+</image>

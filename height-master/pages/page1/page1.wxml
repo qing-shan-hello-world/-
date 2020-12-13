@@ -1,0 +1,27 @@
+<!--pages/my_height/my_height.wxml-->
+<button class="btn1" >服药情况：</button>
+
+<canvas class = "canvas" id="chart3" canvas-id="tempe"></canvas>
+
+<view class="flex-start">
+<view class="height">{{time1}}</view>
+<view class="eat">老人第{{hum1}}次吃药</view>
+</view>
+
+<view class="flex-start">
+<view class="height">{{time2}}</view>
+<view class="eat">老人第{{hum2}}次吃药</view>
+</view>
+
+<view class="flex-start">
+<view class="height">{{time3}}</view>
+<view class="eat">老人第{{hum3}}次吃药</view>
+</view>
+
+<picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+　<view class="picker">
+　　当前选择：{{array[index]}}
+　</view>
+</picker>
+
+<button class="btn1" bindtap="OneNet_Post">设置闹钟</button>
